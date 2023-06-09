@@ -1,0 +1,545 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(67, 67, 67)), to(silver));
+  background-image: -webkit-linear-gradient(rgb(67, 67, 67), silver);
+  background-image: -moz-linear-gradient(rgb(67, 67, 67), silver);
+  background-image: -o-linear-gradient(rgb(67, 67, 67), silver);
+  background-image: linear-gradient(rgb(67, 67, 67), silver);
+  /*  background-image: url(./Carpeta\ Nupicks/fondoGuitarr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; */
+}
+
+.marcos {
+  border: 2px black solid;
+}
+
+/*------------------ COMIENZAN ESTILOS HEADER ----------*/
+.logo_pua {
+  width: 100px;
+}
+
+.navbar__links {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 150%;
+  margin: 0 0.5rem;
+  padding: 0.3rem 0.5rem;
+  -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+          border-radius: 15px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.links__container {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar {
+  background-image: -webkit-radial-gradient(silver, black);
+  background-image: -moz-radial-gradient(silver, black);
+  background-image: -o-radial-gradient(silver, black);
+  background-image: radial-gradient(silver, black);
+  padding: 1.5rem;
+}
+
+.navbar__links:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(silver), to(#A7BEC3));
+  background-image: -webkit-linear-gradient(left, silver, #A7BEC3);
+  background-image: -moz-linear-gradient(left, silver, #A7BEC3);
+  background-image: -o-linear-gradient(left, silver, #A7BEC3);
+  background-image: linear-gradient(to right, silver, #A7BEC3);
+  color: black;
+  -webkit-box-shadow: 1px 2px 15px black;
+     -moz-box-shadow: 1px 2px 15px black;
+          box-shadow: 1px 2px 15px black;
+}
+
+.links__container:hover {
+  -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+          border-radius: 15px;
+  -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+       -o-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+/*---------- COMIENZAN ESTILOS MAIN --------------*/
+/*======================= INDEX ================*/
+.imagen__tamaño {
+  width: 100%;
+}
+
+.iframe__tamaño {
+  width: 100%;
+  height: auto;
+}
+
+.font__title {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.898);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.carousel__container {
+  margin: 2rem;
+  margin-bottom: 4rem;
+}
+
+/*---------- HISTORIA--------------*/
+.historiaContainer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(silver), to(rgb(67, 67, 67)));
+  background-image: -webkit-linear-gradient(silver, rgb(67, 67, 67));
+  background-image: -moz-linear-gradient(silver, rgb(67, 67, 67));
+  background-image: -o-linear-gradient(silver, rgb(67, 67, 67));
+  background-image: linear-gradient(silver, rgb(67, 67, 67));
+  padding: 5rem 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.galeriaHistoria {
+  margin-top: 2rem;
+  margin-bottom: 50px;
+  gap: 20px;
+  width: 80%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-radial-gradient(silver, rgba(0, 0, 0, 0.73));
+  background-image: -moz-radial-gradient(silver, rgba(0, 0, 0, 0.73));
+  background-image: -o-radial-gradient(silver, rgba(0, 0, 0, 0.73));
+  background-image: radial-gradient(silver, rgba(0, 0, 0, 0.73));
+  color: rgba(0, 0, 0, 0.898);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2rem;
+  border: 2px #000000 solid;
+}
+
+/*---------- PRODUCTOS-------------*/
+.color__Card {
+  background-image: -webkit-radial-gradient(silver, rgba(0, 0, 0, 0.73));
+  background-image: -moz-radial-gradient(silver, rgba(0, 0, 0, 0.73));
+  background-image: -o-radial-gradient(silver, rgba(0, 0, 0, 0.73));
+  background-image: radial-gradient(silver, rgba(0, 0, 0, 0.73));
+}
+
+.size__img {
+  width: 2rem;
+}
+
+/* ----------- FAQ ------------- */
+.faq__grid {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  color: rgba(0, 0, 0, 0.898);
+}
+
+.preguntas__title {
+  grid-column: 1/3;
+}
+
+.pregunta__description {
+  margin-bottom: 20px;
+}
+
+.faq__titulo {
+  margin: 2rem;
+}
+
+.faq__pregunta,
+.faq__respuesta {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* --------------------- CONTACTO ------------ */
+.contacto-main {
+  color: rgba(0, 0, 0, 0.898);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem;
+}
+
+.limpiar {
+  list-style-type: none;
+}
+
+/*----------------  COMIENZAN ESTILOS FOOTER --------*/
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-image: -webkit-radial-gradient(silver, black);
+  background-image: -moz-radial-gradient(silver, black);
+  background-image: -o-radial-gradient(silver, black);
+  background-image: radial-gradient(silver, black);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 2px black solid;
+}
+footer p {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 100px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+     -moz-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  text-align: end;
+  width: 55%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  color: #FFFFFF;
+}
+footer div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+     -moz-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-size: 200%;
+  width: 40%;
+  padding-right: 15px;
+  gap: 8px;
+}
+footer div a {
+  color: #25D366;
+}
+footer div a {
+  color: #3B5998;
+}
+
+.facewa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+     -moz-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-size: 200%;
+  width: 40%;
+  padding-right: 15px;
+  gap: 8px;
+}
+
+.dev {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 100px;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 55%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  color: #FFFFFF;
+}
+
+.fa-facebook {
+  color: #3B5998;
+}
+
+.fa-whatsapp {
+  color: #25D366;
+}
+
+.pick__card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 4rem;
+}
+
+/* ================== MEDIA QUERIES ============= */
+.grid {
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+  grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content;
+  grid-template-areas: "...   ...    img1" "...   title1 img1" "...   ...    img1" "img2  ...    ..." "img2  ...   title2" "img2  ...    ..." "...   ...    img3" "...   title3 img3" "...   ...    img3" "img4  ...    ..." "img4  ...   title4" "img4  ...    ..." "...   ...    img5" "...   title5 img5" "...   ...    img5";
+}
+
+.grid .grid__title1 {
+  grid-area: title1;
+}
+
+.grid .grid__img1 {
+  grid-area: img1;
+  margin-top: 1rem;
+}
+
+.grid .grid__title2 {
+  grid-area: title2;
+}
+
+.grid .grid__img2 {
+  grid-area: img2;
+  height: 400px;
+}
+
+.grid .grid__title3 {
+  grid-area: title3;
+}
+
+.grid .grid__img3 {
+  grid-area: img3;
+}
+
+.grid .grid__title4 {
+  grid-area: title4;
+}
+
+.grid .grid__img4 {
+  grid-area: img4;
+  height: 400px;
+}
+
+.grid .grid__title5 {
+  grid-area: title5;
+}
+
+.grid .grid__img5 {
+  grid-area: img5;
+}
+
+/* ------ DESKTOP ------------- */
+@media screen and (max-width: 1279px) {
+  .grid {
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: auto;
+    grid-template-areas: "...   ...    img1" "...   title1 img1" "...   ...    img1" "img2  ...    ..." "img2  ...   title2" "img2  ...    ..." "...   ...    img3" "...   title3 img3" "...   ...    img3" "img4  ...    ..." "img4  ...   title4" "img4  ...    ..." "...   ...    img5" "...   title5 img5" "...   ...    img5";
+  }
+  /* --INDEX-- */
+  /* ---- PRODUCTOS --- */
+  .pick__card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/* ------- TABLET ---------- */
+/*-----  RESPONSIVE INDEX ------*/
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "title1" "img1" "title2" "img2" "title3" "img3" "title4" "img4" "title5" "img5";
+  }
+  .pick__card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*     @media screen and (min-width: 769px) and (max-width: 1278px) {
+        .grid {
+            grid-template-columns: 40% 30% 30%;
+            grid-template-rows: auto;
+            grid-template-areas: 
+            "...   ...    img1"
+            "...   title1 img1"
+            "...   ...    img1"
+            "img2  ...    ..."
+            "img2  ...   title2"
+            "img2  ...    ..."
+            "...   ...    img3"
+            "...   title3 img3"
+            "...   ...    img3"
+            "img4  ...    ..."
+            "img4  ...   title4"
+            "img4  ...    ..."
+            "...   ...    img5"
+            "...   title5 img5"
+            "...   ...    img5"
+
+        }
+    } */
+/* ------ RESPONSIVE FAQ ------*/
+.faq_grid {
+  grid-template-columns: 1fr;
+}
+
+.preguntas___title {
+  grid-column: auto;
+}
+
+/* ----- RESPONSIVE NAVBAR------ */
+.navbar {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.navbar__cont {
+  margin-top: 1rem;
+}
+
+.navbar__links {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 120%;
+}
+
+/* -------------- SMARTPHONE ------------ */
+@media screen and (max-width: 480px) {
+  /*-----  RESPONSIVE INDEX ------*/
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "logo__pua" "title1" "img1" "title2" "img2" "title3" "img3" "title4" "img4" "title5" "img5";
+  }
+  /* ---- RESPONSIVE CONTACTO ----- */
+  .contacto-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*-----  RESPONSIVE FAQ ------*/
+.faq-grid {
+  grid-gap: 10px;
+}
+
+/* ---- RESPONSIVE PRODUCTOS ----- */
+/* RESPONSIVE NAVBAR -------*/
+.navbar {
+  padding: 1rem;
+}
+
+.navbar__links {
+  font-size: 100%;
+}
+
+/* .-------- RESPONSIVE FOOTER -----------. */
+.dev {
+  font-size: 80%;
+}
+
+.facewa {
+  font-size: 150%;
+}
